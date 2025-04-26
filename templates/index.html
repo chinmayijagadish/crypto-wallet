@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Crypto Wallet</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Crypto Wallet</h1>
+
+    <form action="/add_transaction" method="POST">
+        <input type="text" name="sender" placeholder="Sender Username" required><br>
+        <input type="text" name="receiver" placeholder="Receiver Username" required><br>
+        <input type="text" name="coin" placeholder="Coin Name (e.g., BTC)" required><br>
+        <input type="number" name="amount" placeholder="Amount" required><br>
+        <button type="submit">Send Coins</button>
+    </form>
+
+    <br>
+    <form action="#" onsubmit="fetchBalance(); return false;">
+        <input type="text" id="balanceUser" placeholder="Enter Username for Balance">
+        <button type="submit">Get Balance</button>
+    </form>
+
+    <div id="balanceResult"></div>
+
+    <br>
+    <form action="#" onsubmit="fetchTransactions(); return false;">
+        <input type="text" id="txnUser" placeholder="Enter Username for Transactions">
+        <button type="submit">Get Transactions</button>
+    </form>
+
+    <div id="txnResult"></div>
+
+    <script>
+        function fetchBalance() {
+            let user = document.getElementById('balanceUser').value;
+            fetch('/balance/' + user)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('balanceResult').innerHTML = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+            });
+        }
+
+        function fetchTransactions() {
+            let user = document.getElementById('txnUser').value;
+            fetch('/transactions/' + user)
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('txnResult').innerHTML = "<pre>" + JSON.stringify(data, null, 2) + "</pre>";
+            });
+        }
+    </script>
+</body>
+</html>
