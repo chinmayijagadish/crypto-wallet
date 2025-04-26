@@ -44,40 +44,40 @@ Bash commands:
 ⚙️ Project Structure
 
 crypto_wallet/
-├── app.py              # Flask backend application
-├── blockchain.py       # Blockchain-related classes and transaction handling
-├── static/
-│   └── style.css       # Frontend styling
-├── templates/
-│   └── index.html      # Frontend web page
-├── wallet.db           # SQLite database file (auto-created after first run)
-└── README.md           # Project description (this file)
+├──  app.py              # Flask backend application
+├──  blockchain.py       # Blockchain-related classes and transaction handling
+├──  static/
+│    └──  style.css       # Frontend styling
+├──  templates/
+│    └──  index.html      # Frontend web page
+├──  wallet.db           # SQLite database file (auto-created after first run)
+└──  README.md           # Project description (this file)
 
 ---
 
 📋 Key Functionalities
 
 1. View Wallet: See all past transactions and current balance.
-2. 
-2.Send Transaction: Enter receiver's address and amount to transfer.
-3.Error Handling: Shows error if user tries to send more than available balance.
-4.Database: All transactions are stored securely in an SQLite database.
+2. Send Transaction: Enter receiver's address and amount to transfer.
+3. Error Handling: Shows error if user tries to send more than available balance.
+4. Database: All transactions are stored securely in an SQLite database.
 
 ---
 
 💡 Future Improvements
 
-1.Add user login system (authentication).
-2.Extend Blockchain logic to real-time mining/blocks.
-3.Connect real cryptocurrency APIs.
-4.Add QR Code generation for addresses.
-5.Deploy the application online (Render, Heroku).
+1. Add user login system (authentication).
+2. Extend Blockchain logic to real-time mining/blocks.
+3. Connect real cryptocurrency APIs.
+4. Add QR Code generation for addresses.
+5. Deploy the application online (Render, Heroku).
 
 ---
 
 ✨ Author
 
 Chinmayi 
+
 GitHub: chinmayijagadish606@gmail.com
 
 
