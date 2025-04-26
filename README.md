@@ -26,22 +26,22 @@ It allows users to securely store, manage, and track cryptocurrency transactions
 ## 📦 Installation Steps
 
 1. Clone the repository
+   ```bash
+      git clone https://github.com/chinmayijagadish/crypto_wallet.git
 2. Navigate into the project folder
+   ```bash
+      cd crypto_wallet
 3. Install required Python packages
+   ```bash
+      pip install flask
 4. Start the Flask server
-5. Open your browser and visit:
-
-Bash commands:
-
-   1. git clone https://github.com/chinmayijagadish/crypto_wallet.git
-   2. cd crypto_wallet
-   3. pip install flask
-   4. python app.py
-   5. http://127.0.0.1:5000/
-
+    ```bash
+      python app.py
+6. Open your browser and visit:
+    ```link
+    http://127.0.0.1:5000/
+    
 ---
-
-⚙️ Project Structure
 
 ## ⚙️ Project Structure
 
@@ -55,7 +55,8 @@ crypto_wallet/
 │   └── index.html  # Frontend web page
 ├── wallet.db       # SQLite database file (auto-created after first run)
 └── README.md       # Project description (this file)
-
+```
+---
 
 📋 Key Functionalities
 
