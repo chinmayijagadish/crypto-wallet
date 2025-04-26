@@ -33,11 +33,11 @@ It allows users to securely store, manage, and track cryptocurrency transactions
 
 Bash commands:
 
-   1.git clone https://github.com/chinmayijagadish/crypto_wallet.git
-   2.cd crypto_wallet
-   3.pip install flask
-   4.python app.py
-   5.http://127.0.0.1:5000/
+   1. git clone https://github.com/chinmayijagadish/crypto_wallet.git
+   2. cd crypto_wallet
+   3. pip install flask
+   4. python app.py
+   5. http://127.0.0.1:5000/
 
 ---
 
@@ -57,7 +57,8 @@ crypto_wallet/
 
 📋 Key Functionalities
 
-1.View Wallet: See all past transactions and current balance.
+1. View Wallet: See all past transactions and current balance.
+2. 
 2.Send Transaction: Enter receiver's address and amount to transfer.
 3.Error Handling: Shows error if user tries to send more than available balance.
 4.Database: All transactions are stored securely in an SQLite database.
