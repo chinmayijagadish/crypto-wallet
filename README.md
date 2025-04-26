@@ -44,15 +44,14 @@ Bash commands:
 ⚙️ Project Structure
 
 crypto_wallet/
-├──  app.py              # Flask backend application
-├──  blockchain.py       # Blockchain-related classes and transaction handling
-├──  static/
-│    └──  style.css       # Frontend styling
-├──  templates/
-│    └──  index.html      # Frontend web page
-├──  wallet.db           # SQLite database file (auto-created after first run)
-└──  README.md           # Project description (this file)
-
+├── app.py          # Flask backend application
+├── blockchain.py   # Blockchain-related classes and transaction handling
+├── static/
+│   └── style.css   # Frontend styling
+├── templates/
+│   └── index.html  # Frontend web page
+├── wallet.db       # SQLite database file (auto-created after first run)
+└── README.md       # Project description (this file)
 ---
 
 📋 Key Functionalities
