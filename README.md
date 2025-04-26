@@ -81,7 +81,6 @@ crypto_wallet/
 
 Chinmayi 
 
-GitHub: chinmayijagadish606@gmail.com
-
+GitHub: https://github.com/chinmayijagadish
 
 
