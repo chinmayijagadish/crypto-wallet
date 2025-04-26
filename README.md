@@ -33,11 +33,11 @@ It allows users to securely store, manage, and track cryptocurrency transactions
 
 Bash commands:
 
-   git clone https://github.com/chinmayijagadish/crypto_wallet.git
-   cd crypto_wallet
-   pip install flask
-   python app.py
-   http://127.0.0.1:5000/
+   1.git clone https://github.com/chinmayijagadish/crypto_wallet.git
+   2.cd crypto_wallet
+   3.pip install flask
+   4.python app.py
+   5.http://127.0.0.1:5000/
 
 ---
 
